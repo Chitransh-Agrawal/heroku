@@ -8,3 +8,5 @@ router.get("/", homecontroller.front);
 router.use("/question", require("./question"));
 router.use("/option", require("./option"));
 module.exports = router;
+
+//console.log("print");
