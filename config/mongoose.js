@@ -4,6 +4,7 @@ const mongoose = require("mongoose");
 mongoose.connect(`mongodb+srv://chitransh-agrawal:lLHwm1Bi0dS0oGw2@cluster0.piqqzwo.mongodb.net/?retryWrites=true&w=majority`,
 {dbName:'polling_app'});
 //(`mongodb://localhost/polling_dev`);
+//testing
 
 const db = mongoose.connection;
 
